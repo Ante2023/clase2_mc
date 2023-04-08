@@ -1,0 +1,92 @@
+	.container{
+			background: rgb(210, 213, 155);
+		}
+
+        *{
+			margin: 0;padding: 0;
+			outline: none; border: none;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			text-transform: capitalize;
+
+        }
+
+        html{
+            font-size: 90%;
+        }
+
+		header{
+			position: fixed;
+			top:0; left: 0; right: 0;
+			background: #fff;
+			padding: 2rem 9%;
+
+		}
+		header .logo{
+			font-size: 3rem;
+			color: #333;
+			font-weight:  bolder;
+		}
+
+		header .logo span{
+			color:rgb(242, 4, 187);
+		}
+
+		header .navbar a{
+			font-size:  1rem;
+			padding: 0 1.5rem;
+			color: #666;
+		}
+
+		header .navbar a:hover{
+			color: rgb(242, 4, 187);
+		}
+
+		.navbar{
+			padding-left: 200px ;
+			justify-content: space-between;
+			z-index: 1000;
+		}
+		section{
+			padding: 10rem;
+		}
+		.home{
+
+			align-items: center;
+			min-height: 50vh;
+			background:url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-09-23-at-12-46-56-am-1600836443.png) ;
+			background-size: cover;
+			background-position: center;
+
+		}
+		.home .content{
+			max-width: 50rem;
+		}
+		.home .content h3{
+			font-size: 6rem;
+			color: rgb(242, 4, 187);
+		}
+		.home .content span{
+			font-size: 3.5rem;
+			color: white;
+			padding: 1rem 0;
+			line-height: 1.5;
+		}
+		.home .content p{
+			font-size: 1.5rem;
+			color: #999;
+			padding: 1rem 0;
+			line-height: 1.5;
+		}
+		.btn{
+			display: inline-block;
+			margin-top: 1rem;
+			border-radius: 4rem;
+			background: #333;
+			color: #fff;
+			padding: .9rem 2.5rem;
+			font-size: 1.7rem ;
+			text-decoration:none;
+		}
+		.btn:hover{
+			background: rgb(242, 4, 187);
+		}
